@@ -8,3 +8,11 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.input {
+  height: 100%;
+  border: 1;
+  border-color:blue;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

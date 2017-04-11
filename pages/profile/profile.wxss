@@ -1,0 +1,9 @@
+.input {
+  height: 100%;
+  border: 1;
+  border-color:blue;
+  background-color:bisque;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

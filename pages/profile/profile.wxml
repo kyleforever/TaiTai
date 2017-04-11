@@ -1,0 +1,5 @@
+<!-- profile.wxml -->
+<view class="container">
+    <text class="log-item">Hi</text>
+    <input class="input"/>
+</view>
