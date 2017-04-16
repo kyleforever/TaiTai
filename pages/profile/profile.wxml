@@ -1,5 +1,13 @@
 <!-- profile.wxml -->
 <view class="container">
     <text class="log-item">Hi</text>
-    <input class="input"/>
+    <!--<image src="{{userInfo.avatarUrl}}"></image>-->
+    <view class="search_cell">
+        <view class="weui-cell__bd">
+            <input id="name" class="input"/>
+        </view>
+        <view class="weui-cell__ft">
+            <button id="search" class="search_button">Search</button>
+        </view>
+    </view>
 </view>
