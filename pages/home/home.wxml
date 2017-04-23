@@ -1,5 +1,5 @@
-<!--index.wxml-->
-<view class="container">
+<!--home.wxml-->
+<!--<view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}{{userInfo.gender}}{{userInfo.province}}{{userInfo.city}}</text>
@@ -7,4 +7,13 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+</view>-->
+<view class="tab-bar">
+    <view class="tab">tab1</view>
+    <view class="tab">tab2</view>
+    <view class="tab">tab3</view>
 </view>
+<swiper>
+    <swiper-item>test1</swiper-item>
+    <swiper-item>test2</swiper-item>
+</swiper>

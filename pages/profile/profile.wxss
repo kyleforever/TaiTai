@@ -1,14 +1,17 @@
 .input {
-  height: 31px;
+  height: 32px;
   font-size: 14px;
-  border-width: 1;
-  border:lightgray;
-  border-style: solid;
-  /*background-color:lightgreen;*/
+  /*border-width: 1px;*/
+  /*border:lightgray;*/
+  /*border-style: solid;*/
+  background-color:lightgray;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   /*float: left;*/
   padding-left: 10px;
+  border-right: none;
+  /*border-color: none;*/
+  /*border-radius: 0px;*/
 }
 .search_button {
     font-size: 13px;
@@ -16,6 +19,7 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: lightgreen;
+    border-left: none;
     /*float: left;*/
 }
 .search_cell {

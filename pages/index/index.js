@@ -10,7 +10,8 @@ Page({
   bindViewTap: function() {
     wx.navigateTo({
       //url: '../logs/logs'
-      url: '../profile/profile'
+      // url: '../profile/profile'
+      url: '../home/home'
     })
   },
   onLoad: function () {
@@ -23,5 +24,6 @@ Page({
         userInfo:userInfo
       })
     })
+    console.log(that.getData())
   }
 })
